@@ -158,7 +158,7 @@ main{
 
 /* we are gamer style */
 .we-are-gamer{
-    height: 600px;
+    height: 500px;
     width: auto;
     display: flex;
     justify-content: space-around;
@@ -201,6 +201,9 @@ h3{
 }
 
 /* Game video  */
+.video-container{
+    padding-bottom: 100px;
+}
 
 .video-title{
     text-align: center;
@@ -254,6 +257,20 @@ h3{
     margin-left: 105px;
 }
 
+/* Any time Gaming */
+.game-anytime
+.anytime-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* carrier darta style */
+.carrier-data{
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
 
 
 /* phone size Responsive */
