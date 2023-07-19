@@ -273,7 +273,7 @@ h3{
     padding: 0 0px;
 }
 .sub-img img{
-    padding: ;
+    padding: 0;
 }
 
 /* carrier darta style */
@@ -438,6 +438,15 @@ h3{
         height: auto;
     }
     /* we are gamer style */
+    .we-are-gamer{
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+
+    /*video part*/
+    .video-card-container{
+        flex-direction: column;
+    }
 
 }
 
