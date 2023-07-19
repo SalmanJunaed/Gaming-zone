@@ -268,13 +268,13 @@ h3{
 /* carrier darta style */
 
 .carrier-background{
-    height: 500px;
+    height: 550px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     display: flex;
 }
 
 .carrier-data{
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 180px;
 }
 .carrier-title{
@@ -285,7 +285,7 @@ h3{
     padding-top: 40px;
 }
 .carrier-img > img{
-    height: 500px;
+    height: 550px;
 }
 
 .listing{
@@ -301,6 +301,47 @@ h3{
     list-style: none;
     text-align: right;
 }
+.carrier-btn{
+    color: #F948B2;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    padding: 11px 30px;
+    background-color: #FFF;
+}
+
+/* Game links style */
+.container_link{
+    padding-top: 100px;
+    padding-left: 60px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.box{
+
+}
+
+.link-box{
+    height: 65px;
+    width: 220px;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+}
+.link-box:hover{
+    border: 2px solid hsl(329, 100%, 63%);
+}
+.link-box > img{
+    padding-left: 5px;
+}
+
+
+
+
+
 
 
 /* phone size Responsive */
