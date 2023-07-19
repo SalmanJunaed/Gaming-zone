@@ -266,10 +266,40 @@ h3{
 }
 
 /* carrier darta style */
-.carrier-data{
-    height: 821px;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
+.carrier-background{
+    height: 500px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+}
+
+.carrier-data{
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.carrier-title{
+    color: #FFF;
+}
+.carrier-data > p{
+    color: #FFF;
+    padding-top: 40px;
+}
+.carrier-img > img{
+    height: 500px;
+}
+
+.listing{
+    display: flex;
+    gap: 60px;
+}
+.listing1{
+    color: #FFF;
+    list-style: none;
+}
+.listing2{
+    color: #FFF;
+    list-style: none;
+    text-align: right;
 }
 
 
