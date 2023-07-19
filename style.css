@@ -448,6 +448,16 @@ h3{
         flex-direction: column;
     }
 
+    .game-anytime{
+        flex-direction: column;
+    }
+    .carrier-background{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .container_link{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 
