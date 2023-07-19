@@ -263,6 +263,18 @@ h3{
     font-size: 30px;
     font-weight: 700;
 }
+.game-anytime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.anytime-text{
+    padding: 0 0px;
+}
+.sub-img img{
+    padding: ;
+}
 
 /* carrier darta style */
 
