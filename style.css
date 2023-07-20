@@ -272,8 +272,13 @@ h3{
 .anytime-text{
     padding: 0 0px;
 }
+.anytime-image{
+    height: 80%;
+}
 .sub-img img{
-    padding: 0;
+    position: relative;
+    bottom: 250px;
+    right: 120px;
 }
 
 /* carrier darta style */
@@ -438,6 +443,8 @@ h3{
         height: auto;
     }
     /* we are gamer style */
+
+
     .we-are-gamer{
         flex-direction: column;
         padding-bottom: 120px;
