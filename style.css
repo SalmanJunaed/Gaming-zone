@@ -164,6 +164,9 @@ main{
     padding-top:80px;
     text-align: right;
 }
+.we-are-image img{
+    width: 600px;
+}
 .weare-text{ 
     padding-right: 120px;
 
@@ -203,7 +206,9 @@ h3{
 .video-container{
     padding-bottom: 100px;
 }
+/* .video-text{
 
+} */
 .video-title{
     text-align: center;
     font-size: 30px;
@@ -337,6 +342,7 @@ h3{
     grid-template-columns: repeat(5, 1fr);
 }
 
+
 .link-box{
     height: 65px;
     width: 220px;
@@ -353,6 +359,7 @@ h3{
 /* Footer style  */
 .footer-body{
     height: 280px;
+    width: 100%;
     background-color: #0B0223;
     justify-content: center;
     align-items: center;
@@ -401,21 +408,23 @@ h3{
 
 
 
-
-
 /* phone size Responsive */
 @media screen and (max-width: 425px){
     /* nav style */
     .nav-container{
         flex-direction: column;
-        padding-left: 180px;
+        padding-left: 200px;
         padding-bottom: 40px;
     }
     .nav-item-container{
         flex-direction: column;
+        padding-left: 80px;
         margin-bottom: 20px;
         gap: none;
     }
+    /* .logo-img{
+                
+    } */
     .nav-list{
         margin-top:20px ;
     }
@@ -434,6 +443,9 @@ h3{
         height: auto;
         margin-top:200px;
     }
+    .play-link-info{
+        margin-top: 0px;
+    }
     .play-content{
         margin-right: 5%;
         margin-top: 20px;
@@ -443,29 +455,77 @@ h3{
         height: auto;
     }
     /* we are gamer style */
-
-
     .we-are-gamer{
         flex-direction: column;
         padding-bottom: 120px;
+        padding-top:0px;
+        margin-left: -160px;
+        text-align: center;
+    }
+    .we-are-image img{
+        width: 350px;
+        padding-right: 110px;
+    }
+    .gamer-head{
+        text-align: center;
     }
 
     /*video part*/
+    .video-text{
+        margin-left: -300px;
+    }
     .video-card-container{
         flex-direction: column;
+        padding-left: 102px;
+        gap: 10px;
+    }
+    /* game any time  */
+    
+    .game-anytime{
+        align-items: start;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    /* .my-text{
+        padding-left: 50px;
+    } */
+    .anytime-image{
+        margin-left: 60px;
+    }
+    .anytime-image > img{
+        width: 350px;
+    } 
+    .sub-img > img{
+        width: 180px;
+        bottom: 150px;
+        right: 120px;
     }
 
-    .game-anytime{
-        flex-direction: column;
-    }
+    /* carrier phone style  */
     .carrier-background{
         flex-direction: column;
         height: 1200px;
+        margin-left: -30px;
+    }
+    .carrier-data{
+        margin-left: 20px;
+    }
+    .carrier-data > p{
+        width: 480px;
     }
     .container_link{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -80px;
+        margin-top: -80px;
+        margin-bottom: 60px;
     }
+    /* Footer phone style  */
+    .footer-body{
+        width: 600px;
 }
+
+
+
 
 
 
