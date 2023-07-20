@@ -342,10 +342,9 @@ h3{
     grid-template-columns: repeat(5, 1fr);
 }
 
-
 .link-box{
     height: 65px;
-    width: 220px;
+    width: 210px;
     border-radius: 33px;
     display: flex;
     align-items: center;
@@ -422,9 +421,6 @@ h3{
         margin-bottom: 20px;
         gap: none;
     }
-    /* .logo-img{
-                
-    } */
     .nav-list{
         margin-top:20px ;
     }
@@ -436,20 +432,24 @@ h3{
     /* Main play link phone style  */
     main{
         max-width: 425px;
+        margin-left: -60px;
     }
+    /* play link phone style  */
     .play-link-container{
         flex-direction: column-reverse;
         align-items: center;
         height: auto;
         margin-top:200px;
     }
+    .play-content{
+        margin-right: 0%;
+        margin-top: 20px;
+    }
+
     .play-link-info{
         margin-top: 0px;
     }
-    .play-content{
-        margin-right: 5%;
-        margin-top: 20px;
-    }
+    
     .play-link-info> img {
         width: 100%;
         height: auto;
@@ -457,34 +457,41 @@ h3{
     /* we are gamer style */
     .we-are-gamer{
         flex-direction: column;
+        align-items: center;
         padding-bottom: 120px;
-        padding-top:0px;
-        margin-left: -160px;
         text-align: center;
     }
     .we-are-image img{
         width: 350px;
         padding-right: 110px;
     }
+    .weare-text{
+        margin-left: -100px;
+    }
     .gamer-head{
         text-align: center;
     }
 
     /*video part*/
+    .video-container{
+        
+    }
     .video-text{
-        margin-left: -300px;
+        text-align: center;
     }
     .video-card-container{
         flex-direction: column;
-        padding-left: 102px;
+        /* padding-left: 102px; */
         gap: 10px;
     }
-    /* game any time  */
+
+
+    /* game anytime phone */
     
     .game-anytime{
         align-items: start;
         flex-direction: column;
-        margin-left: 80px;
+        margin-left: 200px;
     }
     /* .my-text{
         padding-left: 50px;
@@ -513,16 +520,27 @@ h3{
     .carrier-data > p{
         width: 480px;
     }
+
+    /* Game links phone style */
     .container_link{
         grid-template-columns: repeat(2, 1fr);
         margin-left: -80px;
         margin-top: -80px;
         margin-bottom: 60px;
     }
+    .container_link{
+        padding-top: 100px;
+        padding-left: 60px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     /* Footer phone style  */
     .footer-body{
-        width: 600px;
+        width: 500px;
+    }
 }
+
 
 
 
@@ -531,10 +549,10 @@ h3{
 
 /* Tab size Responsive  */
 @media screen and (min-width: 425px) and (max-width:768px) {
-    /* nav style */
+    /* nav tab style */
     .nav-container{
         flex-direction: column;
-        padding-right: 220px;
+
     }
     .nav-item-container{
         flex-direction: column;
@@ -549,7 +567,7 @@ h3{
         margin-bottom: 20px;
         font-size: 20px;
     }
-    /* Main play link phone style  */
+    /*play link Tab style  */
     main{
             max-width: 768px;
     }
@@ -557,7 +575,8 @@ h3{
         flex-direction: column-reverse;
         align-items: normal;
         height: auto;
-        margin-top:200px;
+        margin-top:250px;
+        margin-left: 40px;
     }
     .play-content{
         position: absolute;
@@ -565,8 +584,75 @@ h3{
         margin-right: 30%;
         margin-top: 0%;
     }
+    .play-link-info{
+        margin-left: 80px;
+    }
     .play-link-image{
         margin-left: 50px;
     }
-    /* we are gamer style */
+    .play-link-image >img{
+        width: 500px;
+        padding-right:0px;
+    }
+    /* we are gamer Tab style */
+    .we-are-gamer{
+        flex-direction: column;
+        padding-bottom: 120px;
+        padding-top: 150px;
+        margin-left: 80px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .weare-text{ 
+        padding-right: 0px;
+    
+    }
+    .gamer-head{
+        text-align: center;
+    }
+    /*video part*/
+    
+    .video-card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    /* Any time Gaming */
+
+    .game-anytime{
+        flex-direction: column;
+    }
+    .anytime-image > img{
+        width: 350px;
+    } 
+    .sub-img > img{
+        width: 180px;
+        bottom: 150px;
+        right: 120px;
+    }
+    /* carrier tab style  */
+    .carrier-background{
+        flex-direction: column;
+        height: 1200px;
+        margin-left: -25px;
+        height: 950px;
+    }
+    .carrier-data{
+        margin-left: 70px;
+    }
+    .carrier-data > p{
+        width: 480px;
+    }
+    /* Game links Tab style */
+    .container_link{
+        padding-top: 100px;
+        margin-left: -10px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+     /* Footer phone style  */
+    .footer-body{
+        width: 100%;
+    }
 }
